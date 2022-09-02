@@ -1,0 +1,25 @@
+{
+    "data": [
+      {
+        "question": "1.What is the capital of Croatia ?",
+        "choices": ["Split", "Osijek", "Zagreb", "Rijeka"],
+        "answer": "Zagreb"
+      },
+      {
+        "question": "2.What is the capital of Slovenia ?",
+        "choices": ["Celje", "Ljubljana", "Maribor", "Koper"],
+        "answer": "Ljubljana"
+      },
+      {
+        "question": "3.What is the capital of Austria ?",
+        "choices": ["Graz", "Salzburg", "Innsbruck", "Vienna"],
+        "answer": "Vienna"
+      },
+      {
+        "question": "4.What Hook should be used for data fetching? ?",
+        "choices": ["useDataFetching()", "useApi()", "useEffect()", "useRequest()"],
+        "answer": "useEffect()"
+      }
+      ]}
+    
+      

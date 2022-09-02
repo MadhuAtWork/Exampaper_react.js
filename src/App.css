@@ -1,0 +1,124 @@
+
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  width: 100%;
+  min-height: 100%;
+  background-color:rgb(249, 242, 231);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 800px;
+  width: 100%;
+  /* height: ; */
+  text-align: center;
+  background-color:white;
+}
+
+label.radio {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.content{
+width:100%;
+background-color:white;
+}
+
+.btndiv{
+  width: 600px;
+  height:40px;
+display: flex;
+  justify-content: space-between;
+  margin: 50px;
+
+}
+.control{
+  margin: 30px;
+}
+
+
+
+label.radio input {
+  margin-right: 20px;
+}
+.success{
+ color: green; 
+ font-size: 20px;
+}
+.danger{
+  color: red; 
+  font-size: 20px;
+}
+.button{
+  width: 100px;
+  font-size: 20px;
+}
+button.next{
+background-color: rgb(246, 101, 101);
+color: white;
+border-radius: 24px;
+border:none;
+cursor: pointer;
+}
+button.back{
+  background-color: rgb(147, 204, 96);
+  color:white;
+  border-radius: 24px;
+ border:none;
+cursor: pointer;
+
+}
+.dataoutput{
+  width: 400px;
+  background-color: blueviolet;
+}
+.button.start{
+  width:150px;
+  background-color: rgb(84, 127, 244);
+  font-size: 20px;
+ padding: 10px;
+  color: white;
+  border-radius: 24px ;
+  border: none;
+cursor: pointer;
+margin: 50px;
+
+}
+.modal{
+width:800px;
+background-color: rgb(222, 244, 244);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left:100px ;
+}
+.card.end{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.submitbtn{
+  padding:15px;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(13, 101, 5);
+  color: white;
+border-radius: 24px;
+cursor: pointer;
+}
+.submitbtn:hover{
+  background-color: rgb(242, 81, 81);
+}
